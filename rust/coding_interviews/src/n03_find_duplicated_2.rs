@@ -1,7 +1,7 @@
 pub struct Solution;
 const N: usize = 11;
 impl Solution {
-    fn find_duplicated_numbers(a: [i32; N]) -> Result<Vec<i32>, bool> {
+    pub fn find_duplicated_numbers(a: [i32; N]) -> Result<Vec<i32>, bool> {
         let mut b: [i32; N] = [0; N];
         for v in &a {
             if *v < 0 || *v > N as i32 {

@@ -1,5 +1,3 @@
-use std::fs::copy;
-
 pub struct Solution;
 
 #[allow(dead_code)]

@@ -1,4 +1,4 @@
-package replace_blank
+package replaceblank
 
 import (
 	"testing"

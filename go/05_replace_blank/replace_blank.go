@@ -1,4 +1,4 @@
-package replace_blank
+package replaceblank
 
 func replaceBlank(str string) string {
 	var originlength = len(str)
